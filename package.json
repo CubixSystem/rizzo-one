@@ -1,7 +1,7 @@
 {
   "name": "rizzo-one",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A port of @csutter's Chester Atom syntax theme based on Lonely Planet colours",
   "repository": "https://github.com/jdsimcoe/rizzo-one",
   "license": "MIT",
