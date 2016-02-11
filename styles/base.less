@@ -85,7 +85,11 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.operator {
-    color: @syntax-text-color;
+    // color: @syntax-text-color;
+    color: @softblue;
+    &.new {
+      color: @purple;
+    }
   }
 
   &.other.special-method {
@@ -165,7 +169,8 @@ atom-text-editor .search-results .marker.current-result .region,
     &.variable,
     &.parameters,
     &.array {
-      color: @syntax-text-color;
+      // color: @syntax-text-color;
+      color: @orange;
     }
 
     &.heading,
@@ -308,4 +313,12 @@ atom-text-editor .search-results .marker.current-result .region,
 atom-text-editor[mini] .scroll-view,
 :host([mini]) .scroll-view {
   padding-left: 1px;
+}
+
+.terminator {
+  color: @purple;
+}
+
+.delimiter {
+  color: @purple;
 }
